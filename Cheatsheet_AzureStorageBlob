@@ -1,0 +1,6 @@
+Simple Azure Blob related learnings:
+
+Accessing Azure Blob via Curl API call.
+
+Curl -I "https://$STORAGE_ACCOUNT.blob.core.windows.net/$CONTAINER_NAME/$BLOB_NAME?$SAS_TOKEN"
+
